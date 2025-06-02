@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 border-b border-gray-700 shadow-sm position sticky top-0">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="text-3xl font-extrabold tracking-wide">Fawaz</div>
+      
+      <!-- Navigation and Contact Button -->
+      <div class="hidden md:flex items-center gap-8">
+        <nav class="flex gap-6 text-gray-300 text-lg">
+          <a href="#home" class="hover:text-white transition">Home</a>
+          <a href="#about" class="hover:text-white transition">About</a>
+          <a href="#skills" class="hover:text-white transition">Skills</a>
+          <a href="#tools" class="hover:text-white transition">Tools</a>
+          <a href="#projects" class="hover:text-white transition">Projects</a>
+        </nav>
+        <a href="https://wa.me/2348052350516" class="ml-6 px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 transition text-white font-semibold text-lg">
+          Contact Me
+        </a>
+      </div>      
+    </div>
+  </header>
+
+<!-- Home Section -->
+<section id="home" class="min-h-screen flex flex-col items-center justify-center gap-10 px-6 bg-gray-900 text-white text-center">
+  <div>
+    <img src="../Images/myimage.jpg" alt="Your Name" class="w-64 h-64 rounded-full object-cover border-6 border-indigo-600 shadow-xl mx-auto">
+  </div>
+  <div>
+    <h1 class="text-6xl font-extrabold mb-6">Hi, I'm Ishola Fawaz</h1>
+    
+    <p class="text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+      I'm a Frontend developer and Graphics Designer passionate about creating clean, user-friendly interfaces and visually appealing designs. I combine technical skills with creativity to build beautiful and functional digital experiences. Let's connect and bring your ideas to life!
+    </p>
+    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+      <a href="https://wa.me/2348052350516" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white text-xl font-semibold rounded-lg transition">
+        Hire Me
+      </a>
+     <a href="https://github.com/Ishola-Fawaz" download class="px-8 py-4 bg-gray-700 hover:bg-gray-600 text-white text-xl font-semibold rounded-lg transition flex items-center gap-2">
+  My GitHub
+  <i class="bi bi-box-arrow-up-right"></i>
+</a>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-900 text-white px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">About Me</h2>
+    <p class="text-xl text-gray-300 leading-relaxed">
+      I'm a <span class="text-indigo-400 font-semibold">Frontend Developer</span> and <span class="text-indigo-400 font-semibold">Graphic Designer</span> passionate about building clean, responsive, and visually engaging interfaces. 
+      I specialize in creating smooth user experiences using modern web technologies and creative design principles.
+    </p>
+    <p class="text-xl text-gray-300 mt-6 leading-relaxed">
+      Whether it's bringing a brand to life with strong visuals or building out seamless UIs, I love turning ideas into polished, functional products. I'm always excited to take on new challenges and collaborate with others to build something great.
+    </p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-20 bg-gray-900 text-white px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-12">My Skills</h2>
+
+    <div class="grid gap-8 md:grid-cols-2">
+      
+      <!-- Card 1: Development Skills -->
+      <div class="bg-gray-800 rounded-xl p-8 shadow-lg transition hover:shadow-xl">
+        <h3 class="text-2xl font-semibold text-indigo-400 mb-4">Development Skills</h3>
+        <ul class="list-disc list-inside text-left text-gray-300 text-lg space-y-2">
+          <li>Responsive design with HTML, CSS, Tailwind CSS & Bootstrap</li>
+          <li>Interactive functionality using JavaScript</li>
+          <li>Version control with Git & GitHub</li>
+          <li>Cross-browser and mobile-first development</li>
+        </ul>
+      </div>
+
+      <!-- Card 2: Design & Other Skills -->
+      <div class="bg-gray-800 rounded-xl p-8 shadow-lg transition hover:shadow-xl">
+        <h3 class="text-2xl font-semibold text-indigo-400 mb-4">Design & Other Skills</h3>
+        <ul class="list-disc list-inside text-left text-gray-300 text-lg space-y-2">
+          <li>Graphic design with Canva & PixelLab</li>
+          <li>UI/UX prototyping in Figma</li>
+          <li>Attention to visual layout and accessibility</li>
+          <li>Effective team collaboration and communication</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Tools Section -->
+<section id="tools" class="py-20 bg-gray-900 text-white px-6">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-10">My Tools</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 justify-center items-center text-gray-300 text-lg font-medium">
+      
+      <!-- HTML -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-14 h-14">
+        <span>HTML</span>
+      </div>
+
+      <!-- CSS -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="w-14 h-14">
+        <span>CSS</span>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="w-14 h-14">
+        <span>Bootstrap</span>
+      </div>
+
+      <!-- Tailwind CSS -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="../Images/tailwindcssImage.png" alt="Tailwind CSS" class="w-14 h-14">
+        <span>Tailwind CSS</span>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-14 h-14">
+        <span>JavaScript</span>
+      </div>
+
+      <!-- Git -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-14 h-14">
+        <span>Git</span>
+      </div>
+
+      <!-- GitHub -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="w-14 h-14 bg-white rounded-full p-1">
+        <span>GitHub</span>
+      </div>
+
+      <!-- Canva -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="../Images/canvaImage.jpeg" alt="Canva" class="w-14 h-14 rounded-full">
+        <span>Canva</span>
+      </div>
+
+      <!-- Figma -->
+      <div class="flex flex-col items-center gap-4">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="w-14 h-14">
+        <span>Figma</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-gray-900 text-white px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-12">My Projects</h2>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Project Card 1 -->
+      <div class="bg-gray-800 rounded-xl shadow-md overflow-hidden transition hover:scale-105 hover:shadow-lg duration-300">
+        <img src="../Images/peakSchoolImage.png" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Peak Schools</h3>
+          <p class="text-gray-300 mb-4">The Peak School App was developed with HTML and Tailwind CSS to provide a modern, digital interface for Peak School a private educational institution seeking to improve communication, accessibility, and engagement among students, parents, and staff.</p>
+          <a href="https://my-school-rosy.vercel.app/" target="_blank" class="text-indigo-500 hover:underline font-medium">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-gray-800 rounded-xl shadow-md overflow-hidden transition hover:scale-105 hover:shadow-lg duration-300">
+        <img src="../Images/yellowcardClone.png" alt="Project 2" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Yellow Card Clone</h3>
+          <p class="text-gray-300 mb-4">Yellow Card clone built with HTML and CSS. This project replicates the Yellow Card Main Landing Page.
+          <br>(Best viewed in desktop mode for full functionalities)</p>
+          <a href="https://yellow-card-clone.vercel.app/" target="_blank" class="text-indigo-500 hover:underline font-medium">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-gray-800 rounded-xl shadow-md overflow-hidden transition hover:scale-105 hover:shadow-lg duration-300">
+        <img src="../Images/techRiseImage.png" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">TechRise Africa</h3>
+          <p class="text-gray-300 mb-4">A React-powered web app that was built for TechRise Africa to serve as a modern, responsive platform that represents the mission and vision of the TechRise Africa initiative which is to empower young Africans with technical skills in software development, design, and digital innovation.</p>
+          <a href="https://techrise-zeta.vercel.app/" target="_blank" class="text-indigo-500 hover:underline font-medium">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-gray-300 pt-16 pb-10 mt-20">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div>
+      <h3 class="text-xl font-bold text-white mb-4">About</h3>
+      <p>
+        I'm Fawaz, a frontend developer and graphic designer. I create clean interfaces and engaging visuals that bring ideas to life.
+      </p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#home" class="hover:text-white transition">Home</a></li>
+        <li><a href="#about" class="hover:text-white transition">About</a></li>
+        <li><a href="#tools" class="hover:text-white transition">Tools</a></li>
+        <li><a href="#projects" class="hover:text-white transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Form -->
+   <form id="contactForm" class="space-y-4" onsubmit="handleSubmit(event)">
+  <input type="text" name="name" placeholder="Your Name" required
+         class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+
+  <input type="email" name="email" placeholder="Your Email" required
+         class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+
+  <input type="text" name="subject" placeholder="Subject" required
+         class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+
+  <input name="message" rows="3" placeholder="Your Message" required
+            class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"></input>
+
+  <button type="submit"
+          class="w-full bg-indigo-600 hover:bg-indigo-500 text-white py-3 px-4 rounded-lg font-semibold transition">
+    Send Message
+  </button>
+
+  <!-- Success Message -->
+  <p id="successMessage" class="text-green-400 font-semibold mt-4 hidden">Message sent successfully!</p>
+</form>
+
+<script>
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevent page reload
+    document.getElementById('contactForm').reset(); // Clear the form
+    document.getElementById('successMessage').classList.remove('hidden'); // Show success message
+  }
+</script>
+
+    
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
+    &copy; <span id="year"></span> Fawaz. All rights reserved.
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
+</body>
+</html>
